@@ -22,14 +22,12 @@ git config --list
 git config user.name
 git config user.email
 
-# Git help in detail
+# Help in detail
 git help checkout
 git help <cmd>
 
-# Git quick help
+# Quick help
 git <cmd> -h
-
-
 
 # Initialize the git VCS (Version Control System) 
 git init
