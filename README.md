@@ -56,7 +56,11 @@ git diff
 git checkout second.txt
 git checkout -- second.txt
 
-# 
+# Status of git
+git status
+git status -s
+
+
 
 ```
 Good Link for Git Concepts:
