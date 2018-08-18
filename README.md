@@ -35,6 +35,7 @@ git init
 # Add all files to staging area
 git add . 
 git add -A
+git add --all
 
 # Add particular file or folder to staging area
 git add filename
@@ -60,6 +61,13 @@ git checkout -- second.txt
 git status
 git status -s
 
+# Git branching 
+git branch  # Shows branches (default is master which is main branch)
+git branch branch_name     # Creating new branch
+git checkout branch_name   # Switching to branch_name
+git checkout master        # Switch back to master branch (to merge other branches)
+git merge branch_name      # merge the changes in branch to master branch
+git branch -D branch_name  # Delete the branch
 
 
 ```
