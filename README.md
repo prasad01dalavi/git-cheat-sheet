@@ -41,6 +41,9 @@ git add --all
 git add filename
 git add foldername
 
+# Untrack the added files (Remove git added files)
+git rm --cached <files>
+
 # Commit the files/folder which are at staging area
 git commit -m "commit message"
 
@@ -63,11 +66,13 @@ git status -s
 
 # Git branching 
 git branch  # Shows branches (default is master which is main branch)
-git branch branch_name     # Creating new branch
-git checkout branch_name   # Switching to branch_name
-git checkout master        # Switch back to master branch (to merge other branches)
-git merge branch_name      # merge the changes in branch to master branch
-git branch -D branch_name  # Delete the branch
+git branch branch_name         # Creating new branch
+or
+git checkout -b branch_name    # Also creates branch
+git checkout branch_name       # Switching to branch_name
+git checkout master            # Switch back to master branch (to merge other branches)
+git merge branch_name          # merge the changes in branch to master branch
+git branch -D branch_name      # Delete the branch
 
 
 ```
