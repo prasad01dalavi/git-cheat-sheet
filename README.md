@@ -50,6 +50,9 @@ git commit -m "commit message"
 # Get the log of commits 
 git log
 
+# Get the graphical representation
+git log --graph
+
 # Gives me the commits for the particular author
 git log --author="Prasad Dalavi"
 
