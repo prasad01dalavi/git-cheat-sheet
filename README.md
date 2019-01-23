@@ -47,6 +47,10 @@ git rm --cached <files>
 # Commit the files/folder which are at staging area
 git commit -m "commit message"
 
+# Redo the commit with forgotten additional changes
+git add forgotten_file
+git commit --amend
+
 # Get the log of commits 
 git log
 
