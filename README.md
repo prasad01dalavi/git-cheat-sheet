@@ -37,8 +37,12 @@ git checkout second.txt               # If I want to discard the changes (before
 
 # Git Remote
 git remote -v                         # Shows the urls for shortnames
+git remote show <remote>              # More Info about particular remote
 git remote add <shortname> <url>      # Add short names for urls
+git remote rename <oldname> <newname> # Rename the remote short name
 git fetch <remote>                    # Pulls down all the data from remote doesn’t automatically merge
+git push <remote> <branch>            # Push it to upstream
+git remote remove or rm <remote>      # Removes all related remote-tracking branches and configuration settings
 
 # Git branching 
 git branch  # Shows branches (default is master which is main branch)
