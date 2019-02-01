@@ -17,6 +17,7 @@ git config user.name                                      # Know the current use
 git config user.email                                     # Know the current user email
 git help <cmd>                                            # Help in detail
 git <cmd> -h                                              # Quick help
+git config --global alias.co checkout                     # Can use co instead of checkout as a short form of checkout
 
 # Using the git VCS (Version Control System) 
 git init                              # Initialize the directory as git repo
