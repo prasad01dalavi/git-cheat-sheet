@@ -46,14 +46,20 @@ git push <remote> <branch>            # Push it to upstream
 git remote remove or rm <remote>      # Removes all related remote-tracking branches and configuration settings
 
 # Git branching 
-git branch  # Shows branches (default is master which is main branch)
+git branch                     # Shows branches (default is master which is main branch)
 git branch branch_name         # Creating new branch
 or
-git checkout -b branch_name    # Also creates branch
+git checkout -b branch_name    # Creates branch and switch to that branch
 git checkout branch_name       # Switching to branch_name
 git checkout master            # Switch back to master branch (to merge other branches)
 git merge branch_name          # merge the changes in branch to master branch
-git branch -D branch_name      # Delete the branch
+git branch --merged            # Shows merged branches
+git branch --no-merged         # Shows not merged branches
+git branch -d branch_name      # Delete the branch safely
+git branch -D branch_name      # Delete the branch forcefully (when it is not merged so that data will get lost)
+git branch -v                  # See the last commit of all branches
+
+
 ```
 Good Link for Git Concepts:
 https://git-scm.com/book/en/v2
