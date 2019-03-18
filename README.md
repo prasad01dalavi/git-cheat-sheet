@@ -59,6 +59,11 @@ git branch -d branch_name      # Delete the branch safely
 git branch -D branch_name      # Delete the branch forcefully (when it is not merged so that data will get lost)
 git branch -v                  # See the last commit of all branches
 
+# Git Advance
+git stash                      # when want to switch branches, but don’t want to commit what have been working on yet 
+git stash list                 # See list of stored stashes
+git stash apply <stash name>   # Apply the stash
+
 
 ```
 Good Link for Git Concepts:
